@@ -1,0 +1,39 @@
+apiVersion: v1
+data:
+    .dockerconfigjson: ENC[AES256_GCM,data:NEm/UJdpIOU03k4kdCj/FG+irrZC6m9ibFYbZMz7Je78QTeMvcJLoe1xgx4jiIgEO98bX16mW/D+a9k/7hE5tFmLVe7PhpdQPSHLcIKH02UTDq6gOjsxnLclVY5kVS+3xB/RRoCNn66EA/mbTkFw8hzKV1Z4t4Hiourecu4cxuGSAgxBKGVu44hJRaWI9ZRX8PiF+Sxa9+1w3tXBV/O6pRPF4u3+DUaLAURWUw==,iv:PPbvFdIQNCdkCAiR+/EokSrJkJJKLNikJ66j9k+q/Uo=,tag:/yUP+zeilc+sbOZJkjOyJg==,type:str]
+kind: Secret
+metadata:
+    creationTimestamp: null
+    name: docker-hub-pull-secret
+    namespace: default
+type: kubernetes.io/dockerconfigjson
+sops:
+    lastmodified: "2025-06-05T01:25:28Z"
+    mac: ENC[AES256_GCM,data:Btw4ffGR7eN7pansVqVfvSa1R2tjAdsdE+Ta1H6Ca1qo56l12ppgGxu+FKzd+A2FQGwo/EyvHcB5ZjTXsnfTdvETeKLJWZFh1yv2jgz90GqQHD7Ih0+G8J+Vq/MxoY/WZYAcebliEYrF5+scrTza0IYzBIvno0p5fiaxwBH1aL0=,iv:yBq/uFG/VubHT658b9wAy7K85xix8McgwENeVEXpREA=,tag:nf0iha9D26m/GvzGT7FTrQ==,type:str]
+    pgp:
+        - created_at: "2025-06-05T01:25:28Z"
+          enc: |-
+            -----BEGIN PGP MESSAGE-----
+
+            hF4D5rdOvaEj6OISAQdAIME8tY49NLI391tKVwC9vUfaX/LAVJYD9jG6oEnpbm8w
+            yHnoejuB82t3+fd+koQQPNsSaqhBOX9vGDCeFwZWbKvzDfvLL02H4IB79ZuWQHvQ
+            1GYBCQIQ4DfnOlITi86AGDwlZoUM96+l4rihgbx5QGjc0TOTfKIn3DIe+AhGmfBC
+            14g8Hdym2ag+IbFsqTb45ReUW+MDXvNFbZZH7gzZyURKRG5W1dtnQmcmlm1pHr3X
+            61AxgTiURXM=
+            =dBw+
+            -----END PGP MESSAGE-----
+          fp: B51DED3777E929E187022400A39D7D193673FE6D
+        - created_at: "2025-06-05T01:25:28Z"
+          enc: |-
+            -----BEGIN PGP MESSAGE-----
+
+            hF4D37FiekyyJQoSAQdAL2K4USw3d5lQIDAMVqQBpxWN3J0y/wAvt9Qs2tHgF2ww
+            FXWfUmuGmw1MTbULuVzWlpN/Qmp/Z9V0FzmVujUGL/BUkWCxIbDRH8j9e4CDK0Vf
+            1GYBCQIQ36kcfq3tcOXv8gwmOXg2ET0VLkAEgbShdLSfQcISCTy+Mh/xsIKVa8RI
+            S2iJS0nbreetDSjUUOsbB9uIBgYoD5H19MCWilMQRrHMTMi4F4KwpWXwxlzfIQRr
+            ui+dBKrCgAU=
+            =vOwK
+            -----END PGP MESSAGE-----
+          fp: 3DC80C3752A95B8D539B034240559725E3612372
+    encrypted_regex: ^(data|stringData)$
+    version: 3.10.2
